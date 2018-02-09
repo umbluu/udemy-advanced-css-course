@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -10,7 +9,6 @@
   @include clearfix;
 
   [class^="col-"] { // ^xxx - selects all that contains xxx, *xxx any that contains xxx, $xxx any that ends with xxx. //
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
